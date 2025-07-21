@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f8;
+  color: #333;
+}
+
+h1 {
+  color: darkred;
+  text-align: center;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: crimson;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+/* Home.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-section select,
+.search-section input {
+  padding: 8px;
+  width: 60%;
+  max-width: 300px;
+  font-size: 14px;
+}
+
+.search-section button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-section .add-btn {
+  margin-top: 10px;
+  background-color: #fa2f4a;
+  color: white;
+}
+
+.donor-table {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 750px;
+  border-collapse: collapse;
+}
+
+.donor-table th,
+.donor-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.donor-table th {
+  background-color: #f44336;
+  color: white;
+}
+
+.donor-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.donor-form input,
+.donor-form select {
+  margin: 10px 0;
+  padding: 8px;
+  width: 60%;
+  max-width: 300px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+}
+
